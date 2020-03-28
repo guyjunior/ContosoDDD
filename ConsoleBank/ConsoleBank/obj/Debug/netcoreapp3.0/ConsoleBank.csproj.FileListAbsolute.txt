@@ -1,0 +1,11 @@
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.exe
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.deps.json
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.runtimeconfig.json
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.runtimeconfig.dev.json
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.dll
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\bin\Debug\netcoreapp3.0\ConsoleBank.pdb
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\obj\Debug\netcoreapp3.0\ConsoleBank.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\obj\Debug\netcoreapp3.0\ConsoleBank.AssemblyInfo.cs
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\obj\Debug\netcoreapp3.0\ConsoleBank.dll
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\obj\Debug\netcoreapp3.0\ConsoleBank.pdb
+C:\Users\PC\source\repos\ConsoleBank\ConsoleBank\obj\Debug\netcoreapp3.0\ConsoleBank.csprojAssemblyReference.cache
