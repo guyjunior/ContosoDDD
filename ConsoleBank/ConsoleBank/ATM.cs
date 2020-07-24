@@ -7,6 +7,8 @@ namespace ConsoleBank
 {
     class ATM
     {
+        public static decimal Soma { get; private set; }
+
         static void Main(string[] args)
         {
             int conta;
@@ -61,18 +63,20 @@ namespace ConsoleBank
                 switch (menu)
                 {
                     case 1:
-                        report.Somar(contacc);
-                        report.Somar(contacp);
+
+                        Soma = contacc.Saldo + contacp.Saldo;
+                        
                         Console.WriteLine("\n=============================\n" +
                             "\nSALDO CONTA POUPANÇA: " + contacp.Saldo +
                             "\nSALDO CONTA CORRENTE: " + contacc.Saldo +
-                            "\nSALDO TOTAL: " + report.ContaSaldo +
+                            "\nSALDO TOTAL: " + Soma +
                             "\n=============================\n");
                         break;
                     case 2:
                         Console.WriteLine("\n\nQUAL O VALOR DESEJA DEPOSITAR NA SUA CONTA CORRENTE? \n");
                         valor = int.Parse(Console.ReadLine());
                         contacc.Depositar(valor);
+                        
                         Console.WriteLine("\n=============================\n");
                         break;
                     case 3:

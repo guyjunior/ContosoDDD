@@ -19,6 +19,7 @@ namespace ConsoleBank
         public override void Sacar(decimal valor) 
         {
             base.Sacar(valor + (this.taxa * valor));
+            
         }
     }
 }

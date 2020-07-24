@@ -1,0 +1,17 @@
+﻿
+@{
+    Layout = "_LayoutAdmin";
+}
+<h3>Nova Categoria</h3>
+<form class="form-horizontal" asp-controller="Cliente" asp-action="Salvar" method="POST">
+
+    <input type="hidden" asp-for="Id" value="0">
+    <input type="text" asp-for="Nome" class="form-control" placeholder="Nome do Cliente"><br>
+    <span asp-validation-for="Nome"></span></br>
+    <input type="number" asp-for="Numero" class="form-control" placeholder="Numero da Conta"><br>
+    <span asp-validation-for="Numero"></span></br>
+    <input type="password" asp-for="Senha" class="form-control" placeholder="Senha da Conta"><br>
+    <span asp-validation-for="Senha"></span></br>
+    <button class="btn btn-success">CRIAR</button>
+
+</form>

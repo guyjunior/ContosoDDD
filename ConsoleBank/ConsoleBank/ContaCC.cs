@@ -6,5 +6,7 @@ namespace ConsoleBank
 {
     public class ContaCC : Conta
     {
+       
+
     }
 }

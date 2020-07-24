@@ -14,9 +14,11 @@ namespace ConsoleBank
             
             if (valor > 0 && Saldo > valor)
             {
-                Saldo -= valor;
+                
+                
                 Console.WriteLine("\n=============================");
                 Console.WriteLine("\nVOCÊ SACOU " + valor);
+                Saldo -= valor;
             }
             else
             {
@@ -30,9 +32,10 @@ namespace ConsoleBank
             
             if (valor > 0)
             {
-                Saldo += valor;
+                
                 Console.WriteLine("\n=============================");
                 Console.WriteLine("\nVOCê DEPOSITOU " + valor);
+                Saldo += valor;
             }
             else
             {

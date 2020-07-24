@@ -8,9 +8,16 @@ namespace ConsoleBank
     {
         public decimal ContaSaldo { get; private set; }
 
-        public void Somar(Conta conta)
+
+        public void SaldoFinal(Conta conta)
         {
-            this.ContaSaldo += conta.Saldo;
+            
+
         }
+
+
+        
+
+        
     }
 }

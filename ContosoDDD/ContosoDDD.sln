@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 Apresentação", "1.0 Apresentação", "{9B1CEB70-6006-45EC-888A-879A85A133D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 Aplicação", "2.0 Aplicação", "{0FF6F665-4DE6-4E2C-9E91-2822FD9BB057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Dominio", "3.0 Dominio", "{C7735C03-B86A-45A8-8CFA-CB7DB3B3836E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infraestrutura", "4.0 Infraestrutura", "{6E545AFB-C5A7-4265-9001-5B428D4CA8CE}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4372E24-88F8-456F-9476-B96AC666110B}
+	EndGlobalSection
+EndGlobal
